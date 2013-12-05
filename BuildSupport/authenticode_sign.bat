@@ -1,1 +1,1 @@
-signtool sign /f C:\Users\user\Documents\authenticode\gvcert.pfx /p swordfish /t http://timestamp.globalsign.com/scripts/timstamp.dll /v /d "Útgáfa eitthvað" /du http://www.frekariupplysingar.is/eitthvad .\Build\Release\Demo.WindowsForms.exe
+C:\Program Files (x86)\Windows Kits\8.0\bin\x86\signtool.exe\signtool sign /f C:\Users\user\Documents\authenticode\gvcert.pfx /p swordfish /t http://timestamp.globalsign.com/scripts/timstamp.dll /v /d "Útgáfa eitthvað" /du http://www.frekariupplysingar.is/eitthvad .\Build\Release\Demo.WindowsForms.exe
