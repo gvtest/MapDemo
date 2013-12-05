@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMap.NET.WindowsForms", "GMap.NET.WindowsForms\GMap.NET.WindowsForms.csproj", "{E06DEF77-F933-42FB-AFD7-DB2D0D8D6A98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildSupport", "BuildSupport", "{DE7801F5-575F-4E32-B2C0-5ED79BA3DF5B}"
+	ProjectSection(SolutionItems) = preProject
+		BuildSupport\after_release_build.bat = BuildSupport\after_release_build.bat
+		BuildSupport\authenticode_sign.bat = BuildSupport\authenticode_sign.bat
+		BuildSupport\before_release_build.bat = BuildSupport\before_release_build.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
